@@ -18,3 +18,6 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lea
 git clone https://github.com/yangsongli/luci-theme-atmaterial package/luci-theme-atmaterial
 git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash
 git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
+
+mkdir -p package/lean/smartdns && wget -P package/lean/smartdns https://raw.githubusercontent.com/openwrt/packages/master/net/smartdns/Makefile
+git clone https://github.com/shaoyou11/luci-app-smartdns.git package/lean/luci-app-smartdns
