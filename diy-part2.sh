@@ -19,5 +19,5 @@ git clone https://github.com/yangsongli/luci-theme-atmaterial package/luci-theme
 git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash
 git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
 
-mkdir -p package/lean/smartdns && wget -P package/lean/smartdns https://raw.githubusercontent.com/openwrt/packages/master/net/smartdns/Makefile
+mkdir -p package/lean/smartdns && wget -P package/lean/smartdns https://raw.githubusercontent.com/pymumu/openwrt-smartdns/master/Makefile
 git clone https://github.com/shaoyou11/luci-app-smartdns.git package/lean/luci-app-smartdns
